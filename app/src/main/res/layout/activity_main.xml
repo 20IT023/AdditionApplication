@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.additionapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum Numbers"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_text"
+        android:ems="10"
+        android:hint="Enter First Number"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:text="Show Sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:id="@+id/sum"
+        android:layout_below="@+id/num1"
+        android:layout_alignStart="@+id/num1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num2"
+        android:hint="Enter Second Number"
+        android:layout_below="@+id/num1"
+        android:layout_alignStart="@+id/num1"
+        android:background="@drawable/rounded_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showsum"
+        android:text="Answer"
+        android:layout_below="@+id/sum"
+        android:layout_alignStart="@+id/sum"
+        android:layout_marginTop="19dp" />
+
+</RelativeLayout>
