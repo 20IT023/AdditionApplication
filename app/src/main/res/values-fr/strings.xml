@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdditionApplication</string>
+    <string name="sum_of_two_numbers">Somme de deux nombres</string>
+    <string name="enter_first_number">Entrez le premier numéroं</string>
+    <string name="show_sum">Afficher la somme</string>
+    <string name="enter_second_number">Entrez le deuxième numéro</string>
+    <string name="answer">Réponse</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">जोड़अनुप्रयोग</string>
+    <string name="sum_of_two_numbers">दो संख्याओं का योग</string>
+    <string name="enter_first_number">पहली संख्या दर्ज करें</string>
+    <string name="show_sum">योग दिखाएँ</string>
+    <string name="enter_second_number">दूसरा नंबर दर्ज करें</string>
+    <string name="answer">जवाब</string>
+</resources>

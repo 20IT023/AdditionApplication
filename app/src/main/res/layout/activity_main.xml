@@ -5,15 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.additionapplication.MainActivity"
+    android:background="@color/purple_200"
     >
 
+    <Spinner
+        android:layout_marginTop="30sp"
+        android:id="@+id/action_bar_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+
+        />
+
     <TextView
+        android:layout_marginTop="30dp"
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sum of Two Numbers"
+        android:text="@string/sum_of_two_numbers"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_below="@+id/action_bar_spinner"
          />
 
     <EditText
@@ -24,20 +37,24 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="29dp"
         android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_text"
         android:ems="10"
-        android:hint="Enter First Number"
+        android:hint="@string/enter_first_number"
         android:inputType="number"
-        android:layout_marginBottom="20dp"/>
+        android:padding="10dp"
+        android:textColor="#FFEB3B"
+        android:autofillHints="" />
 
     <Button
-        android:text="Show Sum"
+        android:id="@+id/sum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:id="@+id/sum"
         android:layout_below="@+id/num1"
-        android:layout_alignStart="@+id/num1" />
+        android:layout_alignStart="@+id/num1"
+        android:layout_marginTop="70sp"
+        android:padding="10dp"
+        android:text="@string/show_sum" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -45,20 +62,22 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/num2"
-        android:hint="Enter Second Number"
+        android:hint="@string/enter_second_number"
+        android:padding="10dp"
         android:layout_below="@+id/num1"
         android:layout_alignStart="@+id/num1"
-        android:background="@drawable/rounded_text"/>
+        android:background="@drawable/rounded_text"
+        android:autofillHints="" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/showsum"
-        android:text="Answer"
+        android:text="@string/answer"
         android:layout_below="@+id/sum"
         android:layout_alignStart="@+id/sum"
         android:layout_marginTop="19dp"
-        android:textSize="40dp"
+        android:textSize="40sp"
         />
 
 </RelativeLayout>

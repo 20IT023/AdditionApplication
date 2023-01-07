@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق Addition</string>
+    <string name="sum_of_two_numbers">مجموع عددين</string>
+    <string name="enter_first_number">أدخل الرقم الأول</string>
+    <string name="show_sum">عرض المجموع</string>
+    <string name="enter_second_number">أدخل الرقم الثاني</string>
+    <string name="answer">إجابه</string>
+</resources>
